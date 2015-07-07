@@ -1,0 +1,42 @@
+#body{
+	background-color: #EEE;
+}
+#container{
+	background-color: white;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#header{
+	background-color: blue;
+	color: white;
+	text-align: center;
+}
+ul
+{
+    list-style-type: none;
+    background-position: 10px center; 
+
+}
+#content{ 
+	padding: 10px;
+}
+#nav{
+	width: 180px;
+	float: left;
+}
+span
+{
+    display:inline-block;
+}
+#main {
+	width: 700px;
+	float: right;
+}
+#footer{
+	background-color: #999999;
+	padding: 10px;
+	clear: both;
+	color:white;
+	text-align: right;
+}
