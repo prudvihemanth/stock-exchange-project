@@ -65,12 +65,7 @@ function createUser(request, reply){
       reply({message: "User updated"});
     });
   });
-} what is the error? how to fix it? why is it throwing error? do you know that? i dont know it
-
-read the error message carefully ok
-?? not getting it says user not defined and we ae accessing. yes that is the problem. user is not defined. let me fix
-
-*/
+}*/
 
 function createUser(request, reply){
   var fname = request.query.fname;
