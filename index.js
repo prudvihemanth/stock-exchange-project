@@ -25,7 +25,7 @@ exampleModule.controller('UserController', function($scope, $http){
 		console.log(url);
 		$http.get(url).success(function(data, status, headers, config){
 			console.log(data); 
-		})
+		});
 	};
 	
 });
