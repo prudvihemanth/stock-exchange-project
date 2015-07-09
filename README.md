@@ -1,2 +1,2 @@
 # stock-exchange-project
-this is tech striker project
+This Project is dedicated to Tech Striker Software Solutions Chandigarh, India.
