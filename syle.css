@@ -12,27 +12,18 @@
 	color: white;
 	text-align: center;
 }
-ul
-{
-    list-style-type: none;
-    background-position: 10px center; 
 
+#image{
+	text-align: center;
 }
 #content{ 
-	padding: 10px;
+	padding: 8px;
 }
 #nav{
 	width: 180px;
 	float: left;
 }
-span
-{
-    display:inline-block;
-}
-#main {
-	width: 700px;
-	float: right;
-}
+
 #footer{
 	background-color: #999999;
 	padding: 10px;
