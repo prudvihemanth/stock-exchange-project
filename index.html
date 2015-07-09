@@ -2,6 +2,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.1/angular.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="./index.js"></script>
 </head>
 <body>
@@ -16,22 +17,25 @@
 				     <label for="redRadio">BUY</label>
                      <input id="redRadio" type="radio" ng-model="button1" value="buy" />
                      <label for="greenRadio">SELL</label>
-                     <input id="greenRadio" type="radio" ng-model="button1" value="sell" /><br />
+                     <input id="greenRadio" type="radio" ng-model="button1" value="sell" /><br><br>
 				     <input type="text" placeholder="USER ID" ng-model="fname" required ><br>
 				     <input type="text" placeholder="PASSWORD" ng-model="lname"  required ><br>
 				     <input type="text" placeholder="TICKER" ng-model="lname3" required><br>
-				     <input type="text" placeholder="QUANTITY" ng-model="lname4" required><br>
+				     <input type="number" placeholder="QUANTITY" ng-model="lname4" required><br><br>
 				     <input type="submit" value="Submit">
 			    </form>
+			    <p><a href="tradinghistory.html">Visit Trading History</a></p>
 			</div>
 			<div id="main">
 				<h2><u>Main Page</u></h2>
 				<p>Welcome to the world of Stock Exchange! Here you can Buy, Sell the stocks from a variety of shares availiable here and we also provide the customere to view his account summary after logging in to our website. Happy Trading !</p><br><br>
-				<img src="ticker.jpg" alt="stocks"><br><br><br>
-		        </div>
-		        <div id="footer">
-				    <u>Prepared by prudhvi hemanth.Guda</u>
-				</div>
-				<marquee behavior="scroll" direction="left">"Welcome to the world of Stock Exchange"</marquee>
+				<div id="image">
+				    <img src="ticker.jpg" alt="stocks"><br><br><br>
+			    </div>
+		    </div>
+		    <div id="footer">
+				<u>@ Tech Striker Pvt Limited India.</u>
+		    </div>
+			<marquee behavior="scroll" direction="left">"Welcome to the world of Stock Exchange"</marquee>
 </body>
 </html>
